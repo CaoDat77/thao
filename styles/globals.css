@@ -17,11 +17,24 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+.container {
+  width: 1200px;
+}
+
+.color-1 {
+  color: #721b65;
+}
+
+.color-2 {
+  color: #ffd868;
+}
+
+.bg-color-1 {
+  background: #721b65;
+}
+
+.bg-color-2 {
+  background: #ffd868;
 }
